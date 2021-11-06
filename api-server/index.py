@@ -42,7 +42,7 @@ def run_regression():
 def train_model():
     df = pd.read_csv("dataset_training.csv")
 
-    subdf = df[['Glucose', 'BloodPressure', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']]
+    subdf = df[['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']]
     X = subdf
     Y = df.Outcome
 
