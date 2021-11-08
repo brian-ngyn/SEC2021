@@ -5,10 +5,11 @@ name = "pypi"
 
 [packages]
 flask = "*"
-firebase = "*"
-numpy = "*"
+firebase_admin = "*"
+pandas = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.7"

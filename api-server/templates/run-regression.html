@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+{% block content %}
+<div class="center">
+<h1>Diabetes Prediction Expert</h1>
+<form action="" method="POST">
+	<label>Results have been predicted!</label>
+	<br>
+	<br>
+	<label>Click to view results:</label>
+	<label><input type="submit" value="View"/></label>
+</form>
+</div>
+{% endblock %}
+</html>

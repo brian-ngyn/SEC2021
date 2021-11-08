@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+{% block content %}
+<div class="center">
+<h1>Diabetes Prediction Expert</h1>
+<form action="" method="POST">
+  <label>File to train model:</label>
+  <br>
+  <br>
+  <label><input type="file" id="myFile_train" name="myFile_train" accept=".csv"/></label>
+  <br>
+  <br>
+  <label><input type="submit" value="Submit"/></label>
+</form>
+</div>
+{% endblock %}
+</html>
