@@ -1,4 +1,4 @@
-# Schulich-Engineering-Competition 2020
+# Schulich-Engineering-Competition 2021
 
 **Junior Programming Division**
 
